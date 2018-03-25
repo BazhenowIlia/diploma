@@ -10,6 +10,13 @@ html,body {
 h1, h2, h3, h4 {
   margin: 0;
 }
+
+ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+
 .wrapper {
   max-width: 1920px;
   margin: 0 auto;
@@ -70,16 +77,11 @@ h1, h2, h3, h4 {
   margin: 0px auto;
 }
 
-ul li {
-  list-style-type: none;
-  display: inline-block;
-}
-
 
 .intro-slide {
   text-transform: uppercase;
   background: #e88182;
-  background: url(img/eagle-min.jpg);
+  background: url("http://u.cubeupload.com/Naylus/Layer15.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -138,13 +140,13 @@ ul.text {
   margin-bottom: 0;
 }
 
-ul.text li { 
+ul.text li {
   padding-bottom: 13px;
 }
 
-ul.text a:hover { 
+ul.text a:hover {
   padding-bottom: 13px;
-  border-bottom: 2px solid #fce38a; 
+  border-bottom: 2px solid #fce38a;
 }
 
 ul li a:hover {
@@ -243,7 +245,7 @@ h1 {
 
 .shop_icon {
   display: inline-block;
-  background-image: url(img/shop-icons.png);
+  background-image: url("http://u.cubeupload.com/Naylus/shopicons.png");
   background-position: 5px 0px;
   background-repeat: no-repeat;
   width: 22px;
@@ -252,14 +254,14 @@ h1 {
 }
 
 .shop_icon:hover {
-  background-image: url(img/shop-icons.png);
+  background-image: url("http://u.cubeupload.com/Naylus/shopicons.png");
   background-position: 5px -22px;
 }
 
 
 .search-icon {
   display: inline-block;
-  background-image: url(img/shop-icons.png);
+  background-image: url("http://u.cubeupload.com/Naylus/shopicons.png");
   background-position: -21px -2px;
   background-repeat: no-repeat;
   width: 25px;
@@ -267,7 +269,7 @@ h1 {
 }
 
 .search-icon:hover {
-  background-image: url(img/shop-icons.png);
+  background-image: url("http://u.cubeupload.com/Naylus/shopicons.png");
   background-position: -23px -22px;
 
 }
@@ -287,8 +289,8 @@ h1 {
 
 .intro p {
   margin: 40px 102px;
-  font-size: 15px;  
-  text-align: center;  
+  font-size: 15px;
+  text-align: center;
   line-height: 24px;
 }
 /* Gallery */
@@ -318,11 +320,11 @@ h1 {
 }
 
 .img2 {
-  background-image: url(img/work-photo-1min.jpg);
+  background-image: url("http://u.cubeupload.com/Naylus/workphoto1min.jpg");
 }
 
 .img3 {
-  background-image: url(img/work-photo-2.jpg);
+  background-image: url("http://u.cubeupload.com/Naylus/workphoto2.jpg");
 }
 
 .work {
@@ -375,7 +377,7 @@ h1 {
 }
 .about .slide-header h3 {
   margin-top: 0;
-  margin-bottom: 35px;  
+  margin-bottom: 35px;
 }
 
 .details-card {
@@ -392,7 +394,7 @@ h1 {
   margin-right: 24px;
   display: inline-block;
   vertical-align: top;
-  background-image: url("img/work-icons.png");
+  background-image: url("http://u.cubeupload.com/Naylus/workicons.png");
   background-repeat: no-repeat;
 }
 
@@ -495,7 +497,7 @@ h1 {
   display: block;
   content: " ";
   clear: both;
-} 
+}
 
 .contacts-slide > .container {
    border-bottom: 1px solid #e7e7e7;
@@ -561,7 +563,7 @@ right: 5px;
 }
 
 .social-icons {
-  background-image: url("img/social-icons.png");
+  background-image: url("http://u.cubeupload.com/Naylus/socialicons.png");
   background-repeat: no-repeat;
   width: 20px;
   height: 20px;
@@ -696,7 +698,7 @@ right: 5px;
   text-decoration: none;
 }
 footer {
-  text-align: center; 
+  text-align: center;
   background-color: #f8f8f8;
   padding: 10px;
 }
